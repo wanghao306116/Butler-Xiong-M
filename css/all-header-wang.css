@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header .row .center{
+    position: fixed;
+    z-index:9999;
+}
+header .row .center{
+    width: 7.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 0.2rem;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header .row .center .header-logo{
+    width: 1.92rem;
+    height: 0.54rem;
+    background: url(../img/header-logo.png)no-repeat;
+    background-size: contain;
+}
+header .row .center .header-menu{
+    width: 0.4rem;
+    height: 0.46rem;
+    background: url(../img/header-menu.png)no-repeat center center;
+    background-size: contain;
+    margin-right: 0.18rem;
+    position: relative;
+}
+header .row .center .header-menu:hover .right-menu{
+    display: block;
+}
+header .row .center .header-menu .right-menu{
+    width: 3.5rem;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -0.22rem;
+    left: -2.72rem;
+    display: none;
+    overflow-y: scroll;
+}
+header .row .center .header-menu .right-menu .right-header{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .row .center .header-menu .right-menu .right-header .menu-close{
+    width: 0.46rem;
+    height: 0.42rem;
+    background: url(../img/header-close.png)no-repeat center center;
+    background-size: contain;
+    margin-right: 0.36rem;
+}
+header .row .center .header-menu .right-menu  ul{
+    margin-top: 0.3rem;
+}
+header .row .center .header-menu .right-menu  ul li{
+    padding: 0.18rem 0.4rem;
+}
+header .row .center .header-menu .right-menu  ul li a {
+   
+    text-decoration: none;
+}
+header .row .center .header-menu .right-menu  ul li a .li-list{
+    color: #fff;
+    padding: 0.08rem 0.4rem;
+    font-size: 0.28rem;
+    overflow: hidden;
+    width:2.7rem;
+    height:.54rem;
+}
+header .row .center .header-menu .right-menu  ul li a .li-list:hover{
+    border-top-left-radius: 0.1rem;
+    border-bottom-right-radius: 0.2rem;
+    background-color: #fff;
+    color: #14926A;
+}

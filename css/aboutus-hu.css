@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.big-contain{
+    text-overflow: ellipsis;   
+}
+.contain {
+    /* width: 4.75rem; */
+    width: 100%;
+    margin: 0 auto;
+    /* position: relative; */
+    margin: 0.5rem 0 0.3rem 0;
+}
+.contain-biaoti{
+    width: 3rem;
+    position: relative;
+    margin: 0 auto;
+}
+.contain-title {
+    font-size: 0.27rem;
+    line-height: 0.35rem;
+    color: #333;
+    text-align: center;
+    font-weight: 549;
+}
+.contain-xian {
+    width: 0.9rem;
+    height: 0.03rem;
+    background-color: green;
+    position: absolute;
+    left: 1rem;
+    margin-top: 0.09rem;
+}
+.contain-e-title {
+    width: 3rem;
+    height: 0.3rem;
+    font-size: 0.15rem;
+    color: #aaaaaa;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-radius: 0.22rem 0 0.22rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contain-text {
+    /* width: 475px; */
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    color: #333;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+.contain img {
+    width: 100%;
+    opacity: 50%;
+}
+.contain .contain-text p {
+    margin-bottom: .25rem;
+    padding-left: .1rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 0.3rem;
+}
+.readMore {
+    width: 1.4rem;
+    height: 0.4rem;
+    font-size: 0.18rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 144, 107);
+    border: 1px solid rgba(146, 142, 142, 0.2);
+    border-top-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    position: absolute;
+    right: 0.3rem;
+    padding: 0.2rem;
+    margin-top: .05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.teamName-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -0.1rem;
+}
+.teamName-box .teamName {
+    float: left;
+    font-size: 0.18rem;
+}
+.teamName-box .teamName-e {
+    color: #8b8a8a;
+    float: right;
+    font-size: 0.15rem;
+    margin-right: 0.23rem;
+}
+.picBox{
+    position: relative;
+}
+.contain .jiantou{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 1.4rem;
+    left: .2rem;
+}
+.jiantou img{
+    opacity: 1;
+    width: .3rem;
+}
+.right-jiantou img{
+    transform: rotate(180deg);
+}

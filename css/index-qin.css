@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* 头部 */
+.Box{
+    width: 100%;
+    background-color: #F3F3F3;
+    padding:0 .22rem .54rem .22rem;
+}
+.LOGO{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+.LOGO img{
+    height: .56rem;
+}
+/* 电话 */
+.Telephone{
+    width: 4.48rem;
+    height: .68rem;
+    border: .02rem solid #B9B9B9;
+    display: flex;
+    /* 内容垂直居中 */
+    align-items:center; 
+    margin: 0 auto;
+    position: relative;
+}
+.Telephone img{
+    margin-left: .28rem;
+    width: .32rem;
+    height: .32rem;
+}
+.Telephone p{
+    color: #14916a;
+    margin-left: .12rem;
+    font-size: .24rem;
+    width: 3.44rem;
+    height: .34rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.left{
+    margin-top: -0.06rem;
+    width: .1rem;
+    height: .3rem;
+    background-color:#F3F3F3;
+    position: absolute;
+    left: -0.04rem;
+}
+.right{
+    margin-top: -0.06rem;
+    width: .1rem;
+    height: .3rem;
+    background-color:#F3F3F3;
+    position: absolute;
+    left: 4.4rem;
+}
+/* 了解 */
+.understand{
+    margin-top: .42rem;
+}
+.understand li{
+    /* margin-left: .22rem; */
+    margin-top: .2rem;
+    display: flex;  
+}
+.icon-1{
+    width: .2rem;
+    height: .32rem;
+    background: url(../img/秦-home\ \(1\).png) no-repeat center center;
+    background-size: .2rem .16rem;
+}
+.icon-2{
+    width: .2rem;
+    height: .32rem;
+    background: url(../img/秦-address\ \(1\).png) no-repeat center center;
+    background-size: .12rem .16rem;
+}
+.icon-3{
+    width: .2rem;
+    height: .32rem;
+    background: url(../img/秦-phone_03\(1\)\ \(1\).png) no-repeat center center;
+    background-size: .16rem .16rem;
+}
+.icon-4{
+    width: .2rem;
+    height: .32rem;
+    background: url(../img/秦-email\ \(1\).png) no-repeat center center;
+    background-size: .16rem .1rem;
+}
+.understand p{
+    /* 文本超出用省略号 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 6.74rem;
+    margin-left: .16rem;
+    font-size: .24rem;
+    color: #555555;
+}
+/* 快速导航 */
+.Navigation{
+    padding: .3rem .8rem 0 .8rem;
+}
+.p{
+    text-align: center;
+    font-size: .28rem;
+}
+.p p{
+    margin: 0 auto;
+    width: 1.12rem;
+    height: .4rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.nav-da{
+    padding: .2rem 0;
+}
+.nav-one{
+    color: #555555;
+    line-height: .56rem;
+    font-size: .24rem;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+}
+a:hover{
+    color: #14916a;
+    text-decoration:underline;
+}
+/* 艺术字 */
+ .ysz{
+    margin-top: -0.34rem;
+    text-align: center;
+ }
+footer .ysz img{
+    width: 4.62rem;
+    height: .64rem;
+}
+/* 快捷入口 */
+footer .kjrk{
+    text-align: center;
+    background-color: #F3F3F3;
+}
+footer .kjrk h2{
+    padding: .4rem 0 0 0;
+    font-size: .28rem;
+    font-weight: 400;
+    display: inline-block;
+    width: 1.12rem;
+    height: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+footer .kjrk .locn{
+    margin: 0 auto;
+    width: 5.2rem;
+    height: .2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+footer .wx{
+    width: .24rem;
+    height: .24rem;
+    position: relative;
+    display: flex;
+}
+footer .wx>img{
+    width: .24rem;
+    height: .24rem;
+}
+footer .ewm{
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: .36rem;
+    left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.qin{
+    width: 1.5rem;
+    height: 1.5rem;
+    position:absolute;
+    top: .26rem;
+    left: .26rem;
+}
+footer .wx-xsj{
+    width: 0px;
+    height: 0px;
+    border-top: .12rem solid transparent;
+    border-right:.12rem solid transparent;
+    border-bottom:.12rem solid #FFFFFF;
+    border-left:.12rem solid transparent;
+    position: absolute;
+    top: -0.24rem;
+    left: 0px;
+}
+footer .wx:nth-of-type(1):hover > .ewm{
+    display: block;
+}
+footer h3{
+    font-size: .3rem;
+    margin: .5rem 0 .22rem 0;
+    color: #14916a;
+    font-weight: 400;
+}
+footer .di{
+    white-space: nowrap;
+    padding: .24rem 0 .24rem 0;
+    border-top: .02rem solid #DADADA;
+    font-size: .24rem;
+    color: #555555;
+}
+footer h3 a{
+    display: inline-block;
+    width: 2.4rem;
+    height: .36rem;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #14916a;
+    text-decoration: none;
+}
+footer h3 a:hover{
+    /* 显示下划线 */
+    text-decoration: underline;
+}
+.one-1{
+    width: 1.12rem;
+    height: .4rem;
+    white-space: nowrap;
+    overflow: hidden;
+}

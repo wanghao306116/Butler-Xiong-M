@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.big-contain{
+    margin: 0 auto;
+}
+.contain {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    padding: 0 0.2rem;
+}
+.contain-biaoti{
+    width: 6rem;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+.contain-title {
+    font-size: 0.3rem;
+    line-height: 0.35rem;
+    color: #333;
+    text-align: center;
+    font-weight: 549;
+    overflow: hidden;
+}
+.contain-xian {
+    width: 1rem;
+    height: 0.04rem;
+    background-color: green;
+    position: absolute;
+    left: 2.5rem;
+    margin-top: 0.09rem;
+}
+.contain-e-title {
+    width: 3.5rem;
+    height: 0.3rem;
+    min-width: 280px;
+    font-size: 0.15rem;
+    padding: .08rem 0.15rem;
+    color: #aaaaaa;
+    margin: 0 auto;
+    border: 0.01rem solid #d3d3d3;
+    border-radius: 0.22rem 0 0.22rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contain-text {
+    width: 7.1rem;
+    height: 1.4rem;
+    font-size: 0.21rem;
+    line-height: 0.36rem;
+    color: #333;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+.contain-text-bottom {
+    margin-bottom: .3rem;
+}
+.l-pic{
+    float: left;
+    width: 40%;
+}
+.r-pic{
+    float: left;
+    width: 60%;
+    background-color: rgb(20,144,107);
+    font-size: 0.16rem;
+    height: 1.91rem;
+    overflow: hidden;
+}
+.tel:nth-child(1) {
+    margin-top: 0.2rem;
+}
+.r-pic .tel1{
+    margin-left: .3rem;
+    margin-bottom: .1rem;
+}
+.r-pic img{
+    width: 0.3rem;
+    margin-right: .2rem;
+}
+.r-pic span{
+    font-size: .3rem;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contain-text-bottom  {
+    margin: 0.2rem 0 0 0;
+}
+.contain-text-bottom .pic1{
+    width: 100%;
+    margin-right: .5%;
+}
+.r-pic .contact{
+    width: 1.8rem;
+    height: .5rem;
+    font-size: .25rem;
+    font-weight: 500;
+    display: flex;
+    background-color: white;
+    color:  rgb(20,144,107);
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    margin-left: 50%;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contain ul{
+    width: 100%;
+}
+.contain ul li{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.contain ul li .pic{
+    overflow: hidden;
+}
+.contain ul li .pic img{
+    width: 99%;
+}
+.contain ul li .pic-word{
+    font-size: 0.35rem;
+    color: #f3f3f3;
+    width: 2rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74, 73, 73, 0.7);
+    position: absolute;
+    top: 0.7rem;
+    left: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

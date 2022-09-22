@@ -1,0 +1,14 @@
+/* ? 这里不同页面需要更改 */
+header .row .center .header-menu .right-menu  ul li:nth-child(3) a .li-list{
+    border-top-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    background-color: #fff;
+    color: #14926A;
+}
+/* ? 这里不同页面需要更改 */
+header .row {
+    height: 3.4rem;
+    background: url(../img/header-bannerbg3.png)no-repeat ;
+    background-size: contain;
+    position: relative;
+}

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main{
+    width: 100%;
+}
+.top{
+    width: 7.50rem;
+    height: 1.70rem;
+}
+.t-text{
+    width: 1.44rem;
+	height: -0.5rem;
+    overflow:hidden;
+    margin:0 auto;
+    text-align: center;
+    font-size: 0.30rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0.10rem;
+}
+.top-1{
+    width: 1.20rem;
+    height: 0.02rem;
+    background-color: #14916a;
+    margin-left: 3.16rem;
+    margin-top: 0.15rem;
+}
+.top-2{
+    width: 3.86rem;
+	height: 0.44rem;
+    overflow:hidden;
+    border: 0.01rem solid #555555;
+    border-top-left-radius: 0.15rem;
+    border-bottom-right-radius: 0.15rem;
+    margin-left: 1.82rem;
+    color: #555555;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.a-1{
+    width: 7.10rem;
+    height: 3.85rem;
+    background-image: url(../img/a-1.png);
+    background-size: 100% 100%;
+    margin: 0.20rem 0.20rem 0rem 0.20rem;
+    position: relative;
+}
+.a-2{
+    width: 7.10rem;
+    height: 3.85rem;
+    background-image: url(../img/a-2.png);
+    background-size: 100% 100%;
+    margin: 0.20rem 0.20rem 0rem 0.20rem;
+    position: relative;
+}
+.a-3{
+    width: 7.10rem;
+    height: 3.85rem;
+    background-image: url(../img/a-3.png);
+    background-size: 100% 100%;
+    margin: 0.20rem 0.20rem 0rem 0.20rem;
+    position: relative;
+}
+.a-4{
+    width: 7.10rem;
+    height: 3.85rem;
+    background-image: url(../img/a-4.png);
+    background-size: 100% 100%;
+    margin: 0.20rem 0.20rem 0rem 0.20rem;
+    position: relative;
+}
+.bottom{
+    width: 7.50rem;
+    height: 1.30rem;
+    position: relative;
+}
+.bottom-f{
+    width: 1.75rem;
+    height: 0.60rem;
+    overflow:hidden;
+    border-top-left-radius: 0.30rem;
+    border-bottom-right-radius: 0.30rem;
+    position: absolute;
+    left: 0.20rem;
+    top: 0.35rem;
+    text-align: center;
+    line-height: 0.60rem;
+    font-size: 0.25rem;
+    color: white;
+    background-color: #14916a;
+}
+.bottom-r{
+    width: 1.75rem;
+    height: 0.60rem;
+    border-top-left-radius: 0.30rem;
+    border-bottom-right-radius: 0.30rem;
+    position: absolute;
+    right: 0.20rem;
+    top: 0.35rem;
+    text-align: center;
+    line-height: 0.60rem;
+    font-size: 0.25rem;
+    color: white;
+    background-color: #14916a; 
+}
+.a-1:hover .text-1{
+    display: block;
+}
+.a-1:hover .text-2{
+    display: none;
+}
+.t-1 .text-1{
+    position:absolute;
+    top: 0.30rem;
+    left: 0.25rem;
+    margin: 0 auto;
+    width: 6.55rem;
+    height: 3.20rem;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+
+}
+.t-1 .text-1 span{
+     color: white;
+     font-size: 0.3rem;
+     position: absolute;
+     top: 1.5rem;
+     right: 2.5rem;
+     width:2rem;
+     height:0.4rem;
+     overflow:hidden;
+}
+.text-2{
+    z-index: 100;
+    position: relative;
+    top: 0rem;
+    left: 6.70rem;
+    width: 0rem;
+    height: 0rem;
+    border-top: 0.20rem solid #188E69;/* 透明 */
+    border-right:0.20rem solid #188E69;
+    border-bottom:0.20rem solid transparent;
+    border-left:0.20rem solid transparent;
+    opacity: 0.5;
+}
+.a-2:hover .text-1{
+    display: block;
+}
+.a-2:hover .text-2{
+    display: none;
+}
+.t-2 .text-1{
+    position:absolute;
+    top: 0.30rem;
+    left: 0.25rem;
+    margin: 0 auto;
+    width: 6.55rem;
+    height: 3.20rem;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    display: none;
+}
+.t-2 .text-1 span{
+     color: white;
+     font-size: 0.3rem;
+     position: absolute;
+     top: 1.5rem;
+     right: 2.5rem;
+}
+.a-3:hover .text-1{
+    display: block;
+}
+.a-3:hover .text-2{
+    display: none;
+}
+.t-3 .text-1{
+    position:absolute;
+    top: 0.30rem;
+    left: 0.25rem;
+    margin: 0 auto;
+    width: 6.55rem;
+    height: 3.20rem;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    display: none;
+}
+.t-3 .text-1 span{
+     color: white;
+     font-size: 0.3rem;
+     position: absolute;
+     top: 1.5rem;
+     right: 2.5rem;
+}
+.a-4:hover .text-1{
+    display: block;
+}
+.a-4:hover .text-2{
+    display: none;
+}
+.t-4 .text-1{
+    position:absolute;
+    top: 0.30rem;
+    left: 0.25rem;
+    margin: 0 auto;
+    width: 6.55rem;
+    height: 3.20rem;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+}
+.t-4 .text-1 span{
+     color: white;
+     font-size: 0.3rem;
+     position: absolute;
+     top: 1.5rem;
+     right: 2.5rem;
+}

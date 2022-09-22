@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+main{
+    width: 100%;
+    position: relative;
+}
+main .title{
+    height: 1.9rem;
+    width: 7.5rem;
+    background-color: #FFF;
+}
+main .title-word{
+    width: 1.45rem;
+    font-size: 0.36rem;
+    color: rgb(51,51,51);
+    position: absolute;
+    top: 0.55rem;
+    left: 3.03rem;
+}
+main .title-hr{
+    height: 0.04rem;
+    width: 1.2rem;
+    background-color:#14916A;
+    position: absolute;
+    top: 1.2rem;
+    left: 3.15rem; 
+}
+main .title-border{
+    height: 0.44rem;
+    width: 3.86rem;
+    border:1px solid rgb(211, 211, 211) ;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 1.23rem;
+    left: 1.82rem;
+    font-size: 0.2rem;
+    text-align: center;
+    color: rgb(170, 170, 170);
+    line-height: 0.44rem;
+}
+main .banner{
+    height: 2.3rem;
+    width: 7.5rem;
+    background-color: #5AB397;
+}
+main .banner img{
+    height: 1.35rem;
+    width: 1.35rem;
+    margin: 0.5rem 0 0 1.45rem;
+}
+main .banner-text{
+    width: 3.8rem;
+    font-size: 0.36rem;
+    color: rgb(246,246,246);
+    position: absolute;
+    top: 2.64rem;
+    left:3.69rem;
+}
+main .banner-text2{
+    width: 3rem;
+    color: rgb(51,51,51);
+    font-size: 0.24rem;
+    position: absolute;
+    top:3.2rem;
+    left: 4.25rem;
+    letter-spacing: 0.02rem;
+}
+main .banner-span{
+    color:rgb(246,246,246) ;
+}
+main .address-box{
+    width: 7.5rem;
+    background-color: #F6F6F6;
+    padding-bottom: 0.2rem;
+}
+main .address-box div{
+    font-weight: bold;
+    color: rgb(51,51,51);
+    font-size: 0.24rem;
+    padding-bottom: 0.1rem;
+    text-align: left;
+    display: inline-flexbox;
+    flex-direction: column;
+}
+main .address-text span{
+    font-weight: normal;
+    font-size: 0.24rem;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    text-align-last: justify;
+} 
+main .address-text p{
+    display: inline-block;
+    height: 0.4rem;
+    width: 0.8rem;
+}
+main .address-text{
+    width: 5rem;
+    padding: 0.35rem 0 0 0.23rem;
+    box-sizing: border-box;
+}
+main .address-text:nth-child(5){
+    position: absolute;
+    top: 6.32rem;
+}
+main .information{
+    height: 6.8rem;
+    width: 7.5rem;
+}
+main .information h1{
+    font-size: 0.36rem;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 0.65rem;
+    color: rgb(51,51,51);
+}
+main .information-hr1{
+    background-color: rgb(51,51,51);
+    height: 0.04rem;
+    width: 0.3rem;
+    position: absolute;
+    top: 8.1rem;
+    left: 1.9rem;
+}
+main .information-hr2{
+    background-color: rgb(51,51,51);
+    height: 0.04rem;
+    width: 0.3rem;
+    position: absolute;
+    top: 8.1rem;
+    right: 1.9rem;
+}
+main .infor{
+    font-size: 0.24rem;
+    color: rgb(51,51,51);
+    margin:0.36rem 0 0 0.36rem ;
+}
+main .infor1{
+    font-size: 0.24rem;
+    color: rgb(51,51,51);
+    margin:0.36rem 0 0 0.36rem ;
+}
+main .infor1 span{
+    color: red;           
+}
+main .infor input{
+    height:0.6rem;
+    width: 5.45rem;
+    margin-left: 0.38rem;
+    border: 1px solid rgb(153,153,153);
+    color: rgb(170,170,170);
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+main .infor1 input{
+    height: 0.6rem;
+    width: 5.45rem;
+    margin-left: 0.28rem;
+    border: 1px solid rgb(153,153,153);
+    color: rgb(170,170,170);
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+main .infor select{
+    height:0.6rem;
+    width: 5.45rem;
+    margin-left: 0.352rem;
+    border: 1px solid rgb(153,153,153);
+    color: #757575;
+    font-size: 0.24rem;
+    padding: 0 0.2rem;
+    appearance: none;
+    background: url(./../img/下拉箭头.png) no-repeat;
+    background-position:9.8rem center;
+}
+main .infor img{
+    position: absolute;
+    top: 11.75rem;
+    left: 6.8rem;
+    height: 0.3rem;
+    width: 0.4rem;
+}
+main .information button{
+    height: 0.6rem;
+    width: 2.71rem;
+    background-color: rgb(51,51,51);
+    color: #FFF;
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    margin-top:0.52rem;
+    margin-left: 2.44rem;
+}
+#container{
+    height: 5.24rem;
+    width: 7.5rem;
+    margin:0 auto;
+    background:#000;
+
+}
